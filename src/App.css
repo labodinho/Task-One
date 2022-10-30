@@ -14,11 +14,10 @@
 }
 
 .share-img2{
-
   display: none;
-  justify-content: flex-end;
-  margin: 20px;
-  margin-right: 25rem;
+  position: absolute;
+  top: 3%;
+  left: 75%;
 }
 
 .header-img{
@@ -30,6 +29,10 @@
   width: 88px;
   height: 88px;
   margin: 20px;
+}
+
+#profile__img:hover{
+  filter: brightness(50%);
 }
 
 #twitter{
@@ -100,6 +103,43 @@ hr{
   margin: 5rem;
 }
 
+.footer-section .HNG{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
 
 /* footer section */
 
+
+/* media query section */
+
+@media screen and (max-width:768px){
+  .share-img{
+    display: none;
+  }
+  
+  .share-img2{
+    display: block;
+  }
+  .footer-section{
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .footer-section img{
+    height: 24px;
+    width: 100px;
+    margin: 5px 0px;
+  }
+}
+
+@media screen and (max-width:600px){
+  hr{
+    margin: 10%;
+  }
+}
+/* media query section */
