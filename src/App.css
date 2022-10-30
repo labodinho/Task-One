@@ -5,15 +5,22 @@
   box-sizing: border-box;
 }
 
-.header-img{
-  display: flex;
-  justify-content: center;
-}
-
+/* header section */
 .share-img{
   display: flex;
   justify-content: flex-end;
   margin: 20px;
+}
+
+.share-img2{
+  display: none;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.header-img{
+  display: flex;
+  justify-content: center;
 }
 
 #profile__img{
@@ -21,6 +28,19 @@
   height: 88px;
 }
 
+#twitter{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+}
+
+/* header section */
+
+
+
+/* Links section */
 .App-link{
   display: flex;
   flex-direction: column;
@@ -29,16 +49,33 @@
 }
 
 .App-link a{
-  
+  font-weight: 500;
+  font-style: normal;
+  color: #101828;
+  size: 18px;
+  line-height: 28px;
 }
 .App-link a button {
+  background-color: #EAECF0;
+  height: 76px;
   width: 80%;
-  padding: 10px;
-  margin: 20px;
+  padding: 24px 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  margin: 8px;
 }
 
 .App-link a button:hover{
-  cursor:pointer
+  cursor:pointer;
+  background-color:#D0D5DD;
 }
 
+/* Links section */
+
+
+/* footer section */
+
+
+
+/* footer section */
 
