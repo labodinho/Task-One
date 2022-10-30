@@ -1,0 +1,44 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-img{
+  display: flex;
+  justify-content: center;
+}
+
+.share-img{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+#profile__img{
+  width: 88px;
+  height: 88px;
+}
+
+.App-link{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.App-link a{
+  
+}
+.App-link a button {
+  width: 80%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.App-link a button:hover{
+  cursor:pointer
+}
+
+
