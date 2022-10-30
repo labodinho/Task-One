@@ -3,6 +3,8 @@ import "./App.css";
 function App() {
   return (
     <div>
+
+      {/********* header-section **********/}
      <div className="share-img">
       <img
         id="share-button"
@@ -29,6 +31,13 @@ function App() {
 
       {/* <p id="slack">Dinho</p> */}
       
+    {/********* header-section **********/}
+
+
+
+
+    {/********* main-section **********/}
+
       <div className="App-link">
         <a href="https://twitter.com/labodinhoo">
           {" "}
@@ -62,12 +71,19 @@ function App() {
       </div>
 
       <hr />
+      
+      {/********* main-section **********/}
+
+      
+      {/********* footer-section **********/}
 
       <div className="footer-section">
       <img src="/image/Zuri.Internship_Logo.png" alt="github logo"/>
       <p>HNG Internship 9 Frontend Task</p>
       <img src="image/I4G.png" alt="github logo"/>
       </div>
+
+      {/********* footer-section **********/}
     </div>
   );
 }

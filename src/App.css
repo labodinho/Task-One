@@ -3,19 +3,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 /* header section */
 .share-img{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px;
+  position: absolute;
+  top: 3%;
+  left: 75%;
 }
 
 .share-img2{
+
   display: none;
   justify-content: flex-end;
   margin: 20px;
+  margin-right: 25rem;
 }
 
 .header-img{
@@ -26,6 +29,7 @@
 #profile__img{
   width: 88px;
   height: 88px;
+  margin: 20px;
 }
 
 #twitter{
@@ -70,11 +74,31 @@
   background-color:#D0D5DD;
 }
 
+.social-icons{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px 60px 0px;
+}
+
+.social-icons img{
+  padding: 10px;
+}
+
+hr{
+  margin: 0rem 5rem;
+}
 /* Links section */
 
 
 /* footer section */
 
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5rem;
+}
 
 
 /* footer section */
