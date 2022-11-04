@@ -11,6 +11,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #101828;
+    padding: 10px 0px;
 }
 
 .hi_sty{
@@ -18,7 +19,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -34,7 +35,7 @@ label{
     justify-content: space-between;
 }
 
-.input_names{
+#last_name, #first_name{
     padding: 10px 14px ;
     max-width: 100%;
     width: 17rem;
@@ -44,14 +45,14 @@ label{
     margin-bottom: 20px;
 }
 
-.input_names::placeholder, .input_email::placeholder, textarea::placeholder{
+#last_name::placeholder, #first_name::placeholder, #email::placeholder, textarea::placeholder{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
 
-.input_email{
+#email{
     max-width: 100%;
     width: 36rem;
     padding: 10px 14px ;
@@ -60,8 +61,8 @@ label{
     margin-bottom: 20px;
 }
 
-textarea{
-    text-indent: 14px;
+textarea {
+    padding: 10px 14px ;
     max-width: 100%;
     width: 36rem;
     height: 132px;
@@ -88,7 +89,7 @@ textarea{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    margin: 15px auto;
+    margin: 10px auto;
 }
 
 #btn__submit:hover{
@@ -111,7 +112,7 @@ textarea{
         justify-content: center;
     }
 
-    .input_names, .input_email, textarea{
+    #last_name, #first_name, #email, textarea{
         width: 95%;
     }
 }

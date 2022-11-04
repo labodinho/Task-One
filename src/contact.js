@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import Footer from "./Footer";
 
 export default function Contact() {
   function handleSubmit(e) {
@@ -7,36 +8,39 @@ export default function Contact() {
     console.log("Form submitted");
   }
   return (
-    <div className="contact_container">
-      <div>
+    <div >
+      
+      <div className="contact_container">
+        
+        <form onSubmit={handleSubmit}>
         <p className="contact_sty">Contact Me</p>
         <p className="hi_sty">
           Hi there, contact me to ask me about anything you have in mind.
         </p>
-        <form onSubmit={handleSubmit}>
           <div className="top_label">
             <div>
-              <label id="first_name">First Name</label> <br />
+              <label className="input_names">First Name</label> <br />
               <input
-                className="input_names"
+                id="first_name"
                 type="text"
                 placeholder="Enter your first name"
               />{" "}
               <br />
             </div>
             <div>
-              <label id="last_name">Last Name</label> <br />
+              <label className="input_names">Last Name</label> <br />
               <input
-                className="input_names"
+                id="last_name"
                 type="text"
                 placeholder="Enter your last name"
               />
             </div>
           </div>
-          <label id="email">Email</label> <br />
-          <input className="input_email" type="text" placeholder="yourname@email.com" /> <br />
-          <label id="message">Message</label> <br />
+          <label className="input_email">Email</label> <br />
+          <input id="email" type="text" placeholder="yourname@email.com" /> <br />
+          <label>Message</label> <br />
           <textarea
+            id="message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
             required
           />{" "}
@@ -49,6 +53,7 @@ export default function Contact() {
           <button id="btn__submit">Send message</button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
