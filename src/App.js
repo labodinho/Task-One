@@ -1,5 +1,5 @@
 import "./App.css";
-import contact from "./contact";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -74,7 +74,7 @@ function App() {
       <hr />
       
       {/********* main-section **********/}
-      <contact />
+      <Contact />
       
       {/********* footer-section **********/}
 
