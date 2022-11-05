@@ -22,6 +22,12 @@
     padding-bottom: 10px;
 }
 
+.signed_in{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
 
 label{
     font-style: normal;
@@ -94,8 +100,8 @@ textarea {
 
 #btn__submit:hover{
     cursor: pointer;
-    background-color: #5996ec;
-    border: 1px solid #5996ec;
+    background-color:  #B2DDFF;
+    border: 1px solid #B2DDFF;
 }
 
 
@@ -112,7 +118,7 @@ textarea {
         justify-content: center;
     }
 
-    #last_name, #first_name, #email, textarea{
+    #last_name, #first_name, #email, textarea, #btn__submit{
         width: 95%;
     }
 }
