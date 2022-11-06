@@ -44,7 +44,7 @@ export default function Home () {
           {" "}
           <button>Twitter Link</button>
         </a>
-        <Link to="/contact" id="btn__zuri"><button>Contact</button></Link>
+        <Link to="/contact" id="contact"><button>Contact</button></Link>
         <a id="btn__zuri" href="https://training.zuri.team/">
           {" "}
           <button>Zuri Team</button>
